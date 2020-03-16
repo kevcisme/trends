@@ -2,7 +2,8 @@
 __pycache__/
 *.py[cod]
 *$py.class
-
+docker-compose.yml
+creds.py
 # C extensions
 *.so
 
@@ -76,6 +77,13 @@ target/
 
 # Jupyter Notebook
 .ipynb_checkpoints
+.local
+.local/*
+.ipython
+.cache
+.jupyter
+.DS_Store
+.bash_history
 
 # IPython
 profile_default/
